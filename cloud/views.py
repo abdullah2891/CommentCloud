@@ -11,15 +11,11 @@ import PIL, PIL.Image, StringIO
 
 # Create your views here.
 
+
+
+
 def view(request):
-
-    obj=UploadCloud.objects.all()
-    return render(request,'cloud/index.html',{'projects':obj})
-
-
-def FormView(request):
-     return render(request,'cloud/formView.html',{})
-
+     return HttpResponse("UNDER DEVELOPEMENT")
 
 def test(request):
      url='https://www.reddit.com/r/funny/comments/3lcf7d/what_i_imagine_entering_the_job_market_in_the_90s/'
