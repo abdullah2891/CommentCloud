@@ -15,7 +15,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MEDIA_ROOT= os.path.join(BASE_DIR+'\\cloud\\',  'static').replace('\\','/')
-STATIC_URL= os.path.join(BASE_DIR, '/static/')
+STATIC_ROOT= os.path.join(BASE_DIR, '/static/')
 
 
 
