@@ -5,5 +5,5 @@ __author__ = 'Abdullah_Rahman'
 
 urlpatterns=[
     url(r'^$',views.view, name='post_image'),
-    url(r'^test.png$',views.test,name='test'),
+    url(r'^test',views.test,name='test'),
 ]

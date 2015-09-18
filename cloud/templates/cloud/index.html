@@ -1,15 +1,17 @@
 {% load staticfiles %}
 <html>
+<h>TEST </h>
+<p>test website</p>
+
+<form class="form-signin" id="login_form" method="post" action="test">
+
+            {% csrf_token %}
 
 
-{% for project in projects %}
-    <h2>{{ project.title }}</h2>
-
-    {% if project.img %}
-        <p><img  src="/static/{{ project.img }}" width="100"/></p>
-    {% endif %}
-
-    <p>{{project.text}}</p>
-{% endfor %}
+            <br>
+            <input type="text" name="user" class="form-control"  value="" required autofocus>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Get Data</button>
+          </form>
 
 </html>
