@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="820531c9-ce0e-48fb-961d-f15e0d358208" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/templates/cloud/form.html" afterPath="$PROJECT_DIR$/cloud/templates/cloud/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/contact.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/sitemap.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/placeholder/technics-q-c-680-280-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/placeholder/technics-q-c-680-280-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/img/placeholder/technics-q-c-680-280-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud/static/scss/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommentCloud.iws" />
@@ -442,7 +452,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442688394205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Template added">
+      <created>1442688551158</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1442688551158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -456,9 +472,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24866024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24866024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
