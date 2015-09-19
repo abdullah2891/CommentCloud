@@ -15,10 +15,10 @@ import PIL, PIL.Image, StringIO
 
 
 def view(request):
-     return render(request, 'cloud/index.html',{})
+     return render(request, 'cloud/form.html',{})
 
 def test(request):
-     url='https://www.reddit.com/r/funny/comments/3lcf7d/what_i_imagine_entering_the_job_market_in_the_90s/'
+     #url='https://www.reddit.com/r/funny/comments/3lcf7d/what_i_imagine_entering_the_job_market_in_the_90s/'
      if request.method=='POST':
          url=request.POST.get('user')
          r=Reddit_comments()
