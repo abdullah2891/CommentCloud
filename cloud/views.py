@@ -38,6 +38,9 @@ def test(request):
         else:
             return  render(request, 'cloud/index.html',{})
 
+def server_error(request):
+        return render(request, 'cloud/index.html',{})
+
 
 
 
