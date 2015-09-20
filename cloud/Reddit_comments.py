@@ -25,9 +25,12 @@ class Reddit_comments:
 
 
 def main():
-    url=raw_input("Enter URL :")
-    r=Reddit_comments()
-    comments=r.return_comments(url)
-    print comments
+    try:
+        url=raw_input("Enter URL :")
+        r=Reddit_comments()
+        comments=r.return_comments(url)
+        print comments
+    except praw.errors.NotFound:
+        print "caught it"
 
 
