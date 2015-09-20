@@ -36,6 +36,6 @@ def test(request):
              pilImage.save(buffer, "PNG")
              return HttpResponse(buffer.getvalue(), content_type="image/png")
 
-     except praw.errors.NotFound:
+     except praw.errors.NotFound,RedirectException:
 
          return render(request, 'cloud/index.html',{})
