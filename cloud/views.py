@@ -24,19 +24,17 @@ def test(request):
         url=request.POST.get('user')
         r=Reddit_comments()
         comments=r.return_comments(url)
-        if comments!="":
-            wordcloud = WordCloud(max_font_size=40).generate(comments)
-            figure()
-            imshow(wordcloud)
+        wordcloud = WordCloud(max_font_size=40).generate(comments)
+        figure()
+        imshow(wordcloud)
 
-            buffer = StringIO.StringIO()
-            canvas = pylab.get_current_fig_manager().canvas
-            canvas.draw()
-            pilImage = PIL.Image.fromstring("RGB", canvas.get_width_height(), canvas.tostring_rgb())
-            pilImage.save(buffer, "PNG")
-            return HttpResponse(buffer.getvalue(), content_type="image/png")
-        else:
-            return  render(request, 'cloud/index.html',{})
+        buffer = StringIO.StringIO()
+        canvas = pylab.get_current_fig_manager().canvas
+        canvas.draw()
+        pilImage = PIL.Image.fromstring("RGB", canvas.get_width_height(), canvas.tostring_rgb())
+        pilImage.save(buffer, "PNG")
+        return HttpResponse(buffer.getvalue(), content_type="image/png")
+
 
 def server_error(request):
         return render(request, 'cloud/index.html',{})
